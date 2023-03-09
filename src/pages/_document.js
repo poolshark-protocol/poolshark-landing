@@ -12,11 +12,11 @@ export default function Document() {
 <meta property="og:image" content="/images/og.png" />
 <meta name="twitter:title" content="Poolshark"/>
 <meta name="twitter:description" content="Poolshark is a directional AMM where users can profit from volatility with less maintenance. Traders can now be LPs too."/>
-<meta name="twitter:image" content="https://poolshark.fi/"/>
+<meta name="twitter:image" content="/images/og.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
       </Head>
-      <body>
+      <body className="bg-[#040110]">
         <Main />
         <NextScript />
       </body>

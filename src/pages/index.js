@@ -2,7 +2,7 @@
 
 export default function Home() {
   return (
-    <div className="bg-black font-dmsans bg-[url('/images/bg.svg')] bg-cover">
+    <div className="bg-black font-dmsans bg-[url('/images/bg.svg')] bg-cover overflow-x-hidden">
       <div className="container mx-auto md:px-0 px-5 flex justify-between items-center">
         <div className="flex items-center gap-x-5 py-6">
           <img className="w-44 mr-10" src="/images/poolsharkmain.png" />
@@ -46,7 +46,7 @@ export default function Home() {
             </div>
             <div className="bg-black px-6 py-6 rounded-xl border-[#ffffff4a] border lg:max-w-sm min-h-36">
               <div className="flex items-center gap-x-4">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
                   <path d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 01-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 013 19.875v-6.75z" />
                 </svg>
                 <h1 className="font-medium text-lg">Auction Off Liquidity</h1>
@@ -57,7 +57,7 @@ export default function Home() {
           <div className="w-full text-white md:flex gap-x-5 justify-between space-y-5 md:space-y-0">
             <div className="bg-black px-6 py-6 rounded-xl border-[#ffffff4a] border lg:max-w-sm min-h-36">
               <div className="flex items-center gap-x-4">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-7">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-7">
                   <path fill-rule="evenodd" d="M14.5 1A4.5 4.5 0 0010 5.5V9H3a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-1.5V5.5a3 3 0 116 0v2.75a.75.75 0 001.5 0V5.5A4.5 4.5 0 0014.5 1z" clip-rule="evenodd" />
                 </svg>
 
@@ -67,7 +67,7 @@ export default function Home() {
             </div>
             <div className="bg-black px-6 py-6 rounded-xl border-[#ffffff4a] border lg:max-w-sm min-h-36">
               <div className="flex items-center gap-x-4">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-7">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-7">
                   <path fill-rule="evenodd" d="M10 1c3.866 0 7 1.79 7 4s-3.134 4-7 4-7-1.79-7-4 3.134-4 7-4zm5.694 8.13c.464-.264.91-.583 1.306-.952V10c0 2.21-3.134 4-7 4s-7-1.79-7-4V8.178c.396.37.842.688 1.306.953C5.838 10.006 7.854 10.5 10 10.5s4.162-.494 5.694-1.37zM3 13.179V15c0 2.21 3.134 4 7 4s7-1.79 7-4v-1.822c-.396.37-.842.688-1.306.953-1.532.875-3.548 1.369-5.694 1.369s-4.162-.494-5.694-1.37A7.009 7.009 0 013 13.179z" clip-rule="evenodd" />
                 </svg>
                 <h1 className="font-medium text-lg">Save Gas on Multiple Liquidations</h1>
@@ -91,7 +91,7 @@ export default function Home() {
         <p className="text-white md:text-base text-sm opacity-40 mt-5 text-center mx-auto">Follow our social platforms to be the first to get progress updates!</p>
         <div className="flex flex-wrap px-6 gap-y-5 items-center gap-x-5 justify-center mt-10">
           <a href="https://poolshark-protocol.medium.com/" target="_blank" className="flex items-center bg-[#bdf] px-9 py-3 rounded-xl text-sm w-min text-black gap-x-4 hover:opacity-80 transition-all">
-            <svg fill="currentColor" class="w-5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Medium</title><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+            <svg fill="currentColor" className="w-5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Medium</title><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
             Medium</a>
             <a href="https://twitter.com/poolsharks_labs" target="_blank" className="flex items-center bg-[#bdf] px-9 py-3 rounded-xl text-sm w-min text-black gap-x-4 hover:opacity-80 transition-all">
             <svg fill="currentColor" className=" w-5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path fill-rule="evenodd" d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" /></svg>
