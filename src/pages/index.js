@@ -15,15 +15,17 @@ export default function Home() {
         </div>
         <div className="gap-x-8 items-center md:flex hidden">
           <a href="https://poolshark-protocol.medium.com/" target="_blank" className="text-white text-sm hover:opacity-80 transition-all">Articles</a>
-          <a href="https://docs.poolshark.fi/" target="_blank" className="bg-[#bdf] px-14 py-3 rounded-xl text-sm hover:opacity-80 transition-all">Docs</a>
+          <a href="https://poolshark-protocol.medium.com/" target="_blank" className="text-white text-sm hover:opacity-80 transition-all">Docs</a>
+          <a href="https://app.poolshark.fi/" target="_blank" className="bg-[#bdf] px-14 py-3 rounded-xl text-sm hover:opacity-80 transition-all font-medium">Launch Tesnet</a>
         </div>
       </div>
       <div className="container md:px-0 px-5 mx-auto md:flex mx-auto space-y-5 md:space-y-0 md:justify-between md:items-center py-20">
         <div className="text-white ">
           <h1 className="md:text-6xl text-4xl font-bold max-w-lg md:min-w-[600px] leading-tight">Directional Liquidity for Ethereum</h1>
-          <p className="text-[#615F68] md:max-w-lg mt-5">Poolshark is a directional AMM where users can profit from volatility with less maintenance. Traders can now be LPs too.</p>
+          <p className="text-[#615F68] md:max-w-lg mt-5 mb-14">Poolshark is a directional AMM where users can profit from volatility with less maintenance. Traders can now be LPs too.</p>
+          <a href="https://app.poolshark.fi/" target="_blank" className="bg-[#bdf] px-14 py-3 rounded-xl text-sm hover:opacity-80 transition-all text-black font-medium">Launch Tesnet</a>
         </div>
-        <img alt="Poolshark UI elements" className="md:max-w-4xl" src="/images/img1.png" />
+        <img alt="Poolshark UI elements" className="md:max-w-4xl pt-10 md:pt-0" src="/images/img1.png" />
       </div>
       <div className="md:px-0 px-5">
         <h1 className="text-white md:text-6xl text-4xl text-center font-bold md:max-w-2xl mx-auto leading-tight mt-20">Directionally balance your LP Position</h1>
