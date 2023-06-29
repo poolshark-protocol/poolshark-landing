@@ -14,8 +14,8 @@ export default function Home() {
           </a>
         </div>
         <div className="gap-x-8 items-center md:flex hidden">
-          <a href="https://poolshark-protocol.medium.com/" target="_blank" className="text-white text-sm hover:opacity-80 transition-all">Articles</a>
-          <a href="https://poolshark-protocol.medium.com/" target="_blank" className="text-white text-sm hover:opacity-80 transition-all">Docs</a>
+          <a href="https://mirror.xyz/pshark.eth" target="_blank" className="text-white text-sm hover:opacity-80 transition-all">Articles</a>
+          <a href="https://docs.poolshark.fi/" target="_blank" className="text-white text-sm hover:opacity-80 transition-all">Docs</a>
           <a href="https://testnet.poolshark.fi/" target="_blank" className="bg-[#bdf] px-14 py-3 rounded-xl text-sm hover:opacity-80 transition-all font-medium">Launch Testnet</a>
         </div>
       </div>
