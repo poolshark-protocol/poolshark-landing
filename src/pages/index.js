@@ -20,7 +20,7 @@ export default function Home() {
           <div className="flex items-center gap-x-9 text-white text-sm">
             <a href="https://docs.poolshark.fi/" target="_blank" className="hover:opacity-60 transition-all">DOCUMENTATION</a>
             <a href="https://mirror.xyz/pshark.eth" target="_blank" className="hover:opacity-60 transition-all">ARTICLES</a>
-            <a href="https://testnet.poolshark.fi/" target="_blank" className="bg-main1 px-8 py-2 border border-main hover:opacity-60 transition-all sm:block hidden">
+            <a href="https://testnet.poolshark.fi/" target="_blank" className="bg-main1 px-8 py-2 border border-main hover:opacity-80 transition-all sm:block hidden">
               ACCESS TESTNET
             </a>
           </div>
@@ -36,10 +36,10 @@ export default function Home() {
               their orders to provide liquidity.
             </p>
             <div className="flex md:flex-row flex-col gap-5 md:items-center font-Jetbrains mt-10 gap-x-5">
-              <a className="bg-main1 py-2 border border-main text-sm w-48 flex items-center justify-center">
+              <a href="https://testnet.poolshark.fi/" target="_blank" className="bg-main1 py-2 border border-main text-sm w-48 flex items-center justify-center hover:opacity-80 transition-all">
                 ACCESS TESTNET
               </a>
-              <a className="bg-white/10 py-2 border border-white/20 text-sm w-48 flex items-center justify-center">
+              <a href="https://docs.poolshark.fi/" target="_blank" className="bg-white/10 py-2 border border-white/20 text-sm w-48 flex items-center justify-center hover:opacity-80 transition-all">
                 READ OUR DOCS
               </a>
             </div>
@@ -48,7 +48,7 @@ export default function Home() {
             src="/images/swap.png"
             width={550}
             height={527}
-            className="lg:mr-0 md:-mr-36 md:block hidden z-50 -mb-20"
+            className="lg:mr-0 md:-mr-36 md:block hidden z-50 -mb-20 -mt-14"
             alt="Poolshark Limit Swap Interface"
           />
         </div>
@@ -318,7 +318,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mx-auto flex flex-col xl:items-start items-center justify-center">
-          <h1 className="text-4xl text-white mt-52">
+          <h1 className="text-4xl text-white mt-44">
             Limit Pools
             <span className="text-sm text-[#898989] ml-4">
               (Range Limit Orders)
@@ -331,7 +331,7 @@ export default function Home() {
               <div className="bg-white/5 h-[300px] border border-white/10 w-full mb-5 rounded-xl flex items-center justify-center">
                 <Range className="scale-[1.25] mx-auto" />
               </div>
-              <h4 className="text-white text-xl">Select a Range to Swap</h4>
+              <h4 className="text-white text-xl">Scale into a trade</h4>
               <p className="text-sm text-[#858585] mt-2">
                 Uncertain about where the market price will go? Select a range
                 for your order to get filled in one single call.
@@ -347,10 +347,9 @@ export default function Home() {
                   alt="Your price"
                 />
               </div>
-              <h4 className="text-white text-xl">On-chain Orders</h4>
+              <h4 className="text-white text-xl">Exact execution</h4>
               <p className="text-sm text-[#858585] mt-2">
-                Your orders live in the liquidity pool. As the price crosses
-                into your range you get filled.
+                Lock in an exact price with limit swaps, a new way to trade your favourite tokens.
               </p>
             </div>
             <div className="flex flex-col w-[400px]">
