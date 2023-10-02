@@ -58,9 +58,9 @@ export default function Home() {
           <div className="text-white relative md:w-[500px] w-full">
             <div className="z-50 relative mx-auto flex justify-center items-center h-[500px]">
               <div className="rounded-[4px] border border-grey m-7 shadow-lg">
-                <video loop autoplay muted className="rounded-[4px]">
+                <video className="rounded-[4px]">
                   {" "}
-                  <source src="/images/ui.mp4" type="video/mp4" />{" "}
+                  <source src="/videos/ui.mp4" type="video/mp4" />{" "}
                 </video>
               </div>
             </div>
@@ -113,24 +113,28 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="md:bg-[url('/images/bg2.png')] bg-[url('/images/bgg.png')] bg-cover overflow-x-hidden border-t border-white/20">
+      <div className="md:bg-[url('/images/bg2.png')] bg-[url('/images/bgg.png')] bg-cover overflow-x-hidden border-t border-white/20 pb-20 pt-14">
         <div className="max-w-7xl mx-auto mt-20 mb-20">
           <div className="mx-auto flex flex-col xl:items-start items-center justify-center text-center xl:text-left px-5 xl:px-0">
           <h3 className="text-[#898989]">
-            We are bringing something completely new to the table...
+          We are bringing completely new liquidity primitives to the table...
           </h3>
           <h1 className="text-4xl text-white mt-3">Cover Pools</h1>
           </div>
           <div className="flex xl:flex-row flex-col gap-10 xl:items-start items-center justify-between mt-10 font-Helvetica">
             <div className="flex flex-col w-[400px]">
               <div className="bg-white/5 h-[300px] border border-white/10 w-full mb-5 rounded-xl flex items-center justify-center">
-                <IL />
+              <Image
+                  src="/images/balance.png"
+                  width={220}
+                  height={200}
+                  className="mx-auto"
+                  alt="Your price"
+                />
               </div>
-              <h4 className="text-white text-xl">Mitigate Impermanent Loss</h4>
+              <h4 className="text-white text-xl">Rebalance Your Portfolio</h4>
               <p className="text-sm text-[#858585] mt-2">
-                Directionally balance your LP position by choosing the winning
-                side. Average in as the reference price moves and capture
-                profits using Price Pools.
+              Dynamically rebalance your holdings as the prices moves. Hedge out other trades in your portfolio to protect against moves in the market.
               </p>
             </div>
             <div className="flex flex-col w-[400px]">
@@ -329,7 +333,13 @@ export default function Home() {
           <div className="flex xl:flex-row flex-col gap-10 xl:items-start items-center justify-between mt-10 font-Helvetica">
             <div className="flex flex-col w-[400px]">
               <div className="bg-white/5 h-[300px] border border-white/10 w-full mb-5 rounded-xl flex items-center justify-center">
-                <Range className="scale-[1.25] mx-auto" />
+              <Image
+                  src="/images/range.svg"
+                  width={300}
+                  height={400}
+                  className="mx-auto w-full"
+                  alt="Your price"
+                />
               </div>
               <h4 className="text-white text-xl">Scale into a trade</h4>
               <p className="text-sm text-[#858585] mt-2">
