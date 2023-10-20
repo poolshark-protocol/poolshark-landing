@@ -32,7 +32,7 @@ export default function Home() {
             </h1>
             <p className="text-[#A5A5A5] lg:text-base md:text-sm mt-8 xl:w-[600px] lg:w-[500px]">
               Poolshark is a cutting-edge AMM where users can create directional
-              positions to profit from volatility. Traders are able to utilise
+              positions to profit from volatility. Traders are able to utilize
               their orders to provide liquidity.
             </p>
             <div className="flex md:flex-row flex-col gap-5 md:items-center font-Jetbrains mt-10 gap-x-5">
