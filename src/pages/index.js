@@ -190,7 +190,7 @@ export default function Home() {
                   alt="Your price"
                 />
               </div>
-              <h4 className="text-white text-xl font-Helvetica">Scale into a trade</h4>
+              <h4 className="text-white text-xl font-Helvetica">Scale Into Trades</h4>
               <p className="text-sm text-[#858585] mt-2 font-Helvetica">
                 Uncertain about where the market price will go? Select a range
                 for your order to get filled in one single call.
@@ -206,7 +206,7 @@ export default function Home() {
                   alt="Your price"
                 />
               </div>
-              <h4 className="text-white text-xl font-Helvetica">Exact execution</h4>
+              <h4 className="text-white text-xl font-Helvetica">Exact Execution</h4>
               <p className="text-sm text-[#858585] mt-2 font-Helvetica">
                 Lock in an exact price with limit swaps, a new way to trade your favorite tokens.
               </p>
