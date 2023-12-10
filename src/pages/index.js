@@ -70,7 +70,7 @@ export default function Home() {
               </h2>
               <p className="text-[#A5A5A5] mt-3 xl:text-base text-sm font-Helvetica">
                 Poolshark uses a very minimalist and simple interface which
-                allows users to create, view and manage they’re positions with
+                allows users to create, view and manage their positions with
                 ease. We are working to improve it constantly!
               </p>
             </div>
@@ -105,7 +105,7 @@ export default function Home() {
               <p className="text-[#A5A5A5] mt-3 md:text-base text-sm font-Helvetica">
                 Poolshark has 3 different types of pools: Range, Cover & Limit.
                 These all have several different use cases that fit each one of
-                you on-chain needs.
+                your on-chain needs.
               </p>
             </div>
             <div className="w-full h-full bg-black/60 absolute top-0 left-0 border border-[#022E87]" />
@@ -150,7 +150,7 @@ export default function Home() {
               <h4 className="text-white text-xl font-Helvetica">Reduce Risk and Losses</h4>
               <p className="text-sm text-[#858585] mt-2 font-Helvetica">
                 As the current price enters your price range, your liquidity is
-                unlocked similar to that of a stop-loss.
+                unlocked similar to a stop-loss.
               </p>
             </div>
             <div className="flex flex-col ">
@@ -166,7 +166,7 @@ export default function Home() {
               <h4 className="text-white text-xl font-Helvetica">Take a Bullish Entry</h4>
               <p className="text-sm text-[#858585] mt-2 font-Helvetica">
                 Never miss a directional move again by accounting for the
-                expected volatility range.
+                expected volatility.
               </p>
             </div>
           </div>
@@ -208,7 +208,7 @@ export default function Home() {
               </div>
               <h4 className="text-white text-xl font-Helvetica">Exact execution</h4>
               <p className="text-sm text-[#858585] mt-2 font-Helvetica">
-                Lock in an exact price with limit swaps, a new way to trade your favourite tokens.
+                Lock in an exact price with limit swaps, a new way to trade your favorite tokens.
               </p>
             </div>
             <div className="flex flex-col">
@@ -222,7 +222,7 @@ export default function Home() {
                 />
               </div>
               <h4 className="text-white text-xl font-Helvetica">
-                Same gas costs no matter the range
+                Gas Efficient
               </h4>
               <p className="text-sm text-[#858585] mt-2 font-Helvetica">
                 Our on-chain execution is proven to have less of a cost for
