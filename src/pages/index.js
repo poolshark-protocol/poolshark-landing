@@ -36,8 +36,8 @@ export default function Home() {
               their orders to provide liquidity.
             </p>
             <div className="flex md:flex-row flex-col gap-5 md:items-center font-Jetbrains mt-10 gap-x-5">
-              <a href="https://testnet.poolshark.fi/" target="_blank" className="bg-main1 py-2 border border-main text-sm w-48 flex items-center justify-center hover:opacity-80 transition-all">
-                ACCESS TESTNET
+              <a href="https://app.poolshark.fi/" target="_blank" className="bg-main1 py-2 border border-main text-sm w-48 flex items-center justify-center hover:opacity-80 transition-all">
+                LAUNCH DAPP
               </a>
               <a href="https://docs.poolshark.fi/" target="_blank" className="bg-white/10 py-2 border border-white/20 text-sm w-48 flex items-center justify-center hover:opacity-80 transition-all">
                 READ OUR DOCS
