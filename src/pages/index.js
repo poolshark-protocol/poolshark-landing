@@ -21,7 +21,7 @@ export default function Home() {
             <a href="https://docs.poolshark.fi/" target="_blank" className="hover:opacity-60 transition-all">DOCUMENTATION</a>
             <a href="https://mirror.xyz/pshark.eth" target="_blank" className="hover:opacity-60 transition-all">ARTICLES</a>
             <a href="https://testnet.poolshark.fi/" target="_blank" className="bg-main1 px-8 py-2 border border-main hover:opacity-80 transition-all sm:block hidden">
-              ACCESS TESTNET
+              LAUNCH APP
             </a>
           </div>
         </div>
@@ -37,7 +37,7 @@ export default function Home() {
             </p>
             <div className="flex md:flex-row flex-col gap-5 md:items-center font-Jetbrains mt-10 gap-x-5">
               <a href="https://app.poolshark.fi/" target="_blank" className="bg-main1 py-2 border border-main text-sm w-48 flex items-center justify-center hover:opacity-80 transition-all">
-                LAUNCH DAPP
+                LAUNCH APP
               </a>
               <a href="https://docs.poolshark.fi/" target="_blank" className="bg-white/10 py-2 border border-white/20 text-sm w-48 flex items-center justify-center hover:opacity-80 transition-all">
                 READ OUR DOCS
