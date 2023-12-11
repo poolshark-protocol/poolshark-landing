@@ -20,7 +20,7 @@ export default function Home() {
           <div className="flex items-center gap-x-9 text-white text-sm">
             <a href="https://docs.poolshark.fi/" target="_blank" className="hover:opacity-60 transition-all">DOCUMENTATION</a>
             <a href="https://mirror.xyz/pshark.eth" target="_blank" className="hover:opacity-60 transition-all">ARTICLES</a>
-            <a href="https://testnet.poolshark.fi/" target="_blank" className="bg-main1 px-8 py-2 border border-main hover:opacity-80 transition-all sm:block hidden">
+            <a href="https://app.poolshark.fi/" target="_blank" className="bg-main1 px-8 py-2 border border-main hover:opacity-80 transition-all sm:block hidden">
               LAUNCH APP
             </a>
           </div>
@@ -278,7 +278,7 @@ export default function Home() {
         <div className="flex items-center gap-x-9 text-white/60 text-sm">
         <a href="https://docs.poolshark.fi/" target="_blank" className="hover:opacity-60 transition-all md:block hidden">DOCUMENTATION</a>
             <a href="https://mirror.xyz/pshark.eth" target="_blank" className="hover:opacity-60 transition-all md:block hidden">ARTICLES</a>
-            <a href="https://testnet.poolshark.fi/" target="_blank" className="hover:opacity-60 transition-all">ACCESS TESTNET</a>
+            <a href="https://app.poolshark.fi/" target="_blank" className="hover:opacity-60 transition-all">LAUNCH APP</a>
         </div>
       </footer>
     </div>
